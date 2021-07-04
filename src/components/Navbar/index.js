@@ -5,7 +5,6 @@ function Navbar() {
     return (
     <header>
             <h1>Brent B.</h1>
-            <img src="%PUBLIC_URL%/recent-profile.jpg" alt="Brent"/>
             <nav>
                 <ul>
                     <li><a href="#AboutMe">About Me</a></li>
