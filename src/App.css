@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url("ovxryz.jpg");
+}
+.portfolioContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+.hover-highlight:hover {
+  filter: brightness(75%);
+  transition: all 0.50s;
+}
+.hover-highlight {
+  transition: all 0.50s;
+}
+
+.AboutMe {
+  margin:auto;
+  padding: 1rem;
+}
+.AboutMe > div {
+  border: plum solid 2px;
+  border-radius: 5%;
+  background-color: rgba(80,2,80, 0.5);
+  align-items: center;
+}
+.AboutMe h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.AboutMe p {
+  padding: 15px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  width: 60%;
+  height: 120px;
+  margin: 0 auto;
+  background-color:plum;
+  border-radius: 10px;
+  box-shadow:rebeccapurple;
+}
+footer > * {
+  margin: 0;
+}
+footer ul li {
+  display: inline-block;
+}
