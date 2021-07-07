@@ -4,6 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="devHeader">
+        <h1>B. Baughan's Developer Profile</h1>
+      </div>
       <div className="portfolioContainer">
         <div className="portfolio">
           <Portfolio />
@@ -17,15 +20,17 @@ function App() {
           <p>Below are some links to projects I've worked on. I will continue to update this portfolio page with more interactivity and more projects!</p>
         </div>
       </div>
-      <footer>
-      <h2>Contact Me</h2>
-            <p>Feel free to reach out to me on the following platforms:</p>
-            <ul>
-                <li><a href="https://github.com/BrenniusXIV" target="_blank" rel="noreferrer">GitHub</a></li>
-                <li><a href="https://gitlab.com/bbaughan" target="_blank" rel="noreferrer">GitLab</a></li>
-                <li><a href="https://www.linkedin.com/in/brent-baughan-33a136181" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            </ul>
-      </footer>
+      <div className="ContactMe"> 
+        <div>
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me on the following platforms:</p>
+        <ul>
+          <li><a href="https://github.com/BrenniusXIV" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://gitlab.com/bbaughan" target="_blank" rel="noreferrer">GitLab</a></li>
+          <li><a href="https://www.linkedin.com/in/brent-baughan-33a136181" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        </ul>
+        </div>
+      </div>
     </div>
   );
 }
