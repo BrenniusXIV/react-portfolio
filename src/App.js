@@ -25,9 +25,9 @@ function App() {
         <h2>Contact Me</h2>
         <p>Feel free to reach out to me on the following platforms:</p>
         <p>
-          <a href="https://github.com/BrenniusXIV" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://gitlab.com/bbaughan" target="_blank" rel="noreferrer">GitLab</a>
-          <a href="https://www.linkedin.com/in/b-baughan-33a136181/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/BrenniusXIV" target="_blank" rel="noreferrer">GitHub</a><br/>
+          <a href="https://gitlab.com/bbaughan" target="_blank" rel="noreferrer">GitLab</a><br/>
+          <a href="https://www.linkedin.com/in/b-baughan-33a136181/" target="_blank" rel="noreferrer">LinkedIn</a><br/>
         </p>
         </div>
       </div>
